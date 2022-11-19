@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Carousel</h1>
+  <div class="carousel-wrapper">
+    <span id="item-1"></span>
+    <span id="item-2"></span>
+    <span id="item-3"></span>
+    <div class="carousel-item item-1">
+      <a href="#item-3" class="arrow-prev arrow"></a>
+      <a href="#item-2" class="arrow-next arrow"></a>
+    </div>
+
+    <div class="carousel-item item-2">
+      <a href="#item-1" class="arrow-prev arrow"></a>
+      <a href="#item-3" class="arrow-next arrow"></a>
+    </div>
+
+    <div class="carousel-item item-3">
+      <a href="#item-2" class="arrow-prev arrow"></a>
+      <a href="#item-1" class="arrow-next arrow"></a>
+    </div>
+</div>
+</body>
+<div class="main">
+    <h1 style="text-align:center">Profile Card</h1>
+<div class="card">
+    <img src="images/pexels-stefan-stefancik-91227.jpg" alt="John" style="width:100%">
+  <h2>John Cena</h2>
+  <p class="title">CEO & Founder, Smart-buy</p>
+  <p>United States Of America</p>
+  <div style="margin: 24px 0;">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-youtube"></i>
+  </div>
+  <p><button>Contact</button></p>
+</div>
+</div>
+<div class="third">
+    <h3>Form</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+     <br>
+     <br>
+    <label for="lname">Phone number</label>
+    <input type="number" id="pnum" name="phone number" placeholder="Phone number.."><br>
+    <br>
+
+    <label for="lname">Address</label>
+    <input type="text" id="add" name="address" placeholder="Address">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">India</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</div>
+</html>
